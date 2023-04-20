@@ -1,0 +1,23 @@
+body {
+  background-image: url(../src/images/light-patten.svg);
+}
+nav,
+footer {
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none !important;
+}
+.item a {
+  color: #fff !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-spin {
+    animation-name: fa-spin;
+    animation-duration: var(--fa-animation-duration, 2s);
+    animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+    animation-timing-function: var(--fa-animation-timing, linear);
+  }
+}
